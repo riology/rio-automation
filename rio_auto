@@ -1,0 +1,19 @@
+  def create_banner(self, game_name: str):
+        # Create banner with game name
+        banner = f"""{Fore.GREEN}
+  _______  _______           _______  ______  
+(  ____ )(  ____ \|\     /|(  ___  )(  __  \ 
+| (    )|| (    \/( \   / )| (   ) || (  \  )
+| (____)|| (__     \ (_) / | (___) || |   ) |
+|     __)|  __)     \   /  |  ___  || |   | |
+| (\ (   | (         ) (   | (   ) || |   ) |
+| ) \ \__| (____/\   | |   | )   ( || (__/  )
+|/   \__/(_______/   \_/   |/     \|(______/ 
+                                             
+                                                                
+    Auto Claim Bot For {game_name} - Rio-automation
+    Author  : Reyad Sarkar
+    Github  : https://github.com/riology
+    Telegram: https://t.me/rio_logy
+        {Style.RESET_ALL}"""
+        return banner
